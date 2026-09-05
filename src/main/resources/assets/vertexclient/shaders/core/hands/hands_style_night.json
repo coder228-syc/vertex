@@ -1,0 +1,18 @@
+{
+  "vertex": "vertexclient:core/kawase_down/kawase_down",
+  "fragment": "vertexclient:core/hands/hands_style_night",
+  "samplers": [
+    { "name": "Sampler0" },
+    { "name": "Sampler1" }
+  ],
+  "uniforms": [
+    { "name": "ModelViewMat", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "ProjMat", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "Tint", "type": "float", "count": 4, "values": [1.0, 1.0, 1.0, 1.0] },
+    { "name": "Params", "type": "float", "count": 4, "values": [1920.0, 1080.0, 0.0, 1.5] },
+    { "name": "AuroraAColor", "type": "float", "count": 4, "values": [0.163, 0.063, 0.765, 0.0] },
+    { "name": "AuroraBColor", "type": "float", "count": 4, "values": [0.216, 0.776, 0.784, 0.0] },
+    { "name": "StarColor", "type": "float", "count": 4, "values": [0.827, 0.769, 0.573, 0.0] },
+    { "name": "alpha", "type": "float", "count": 1, "values": [0.72] }
+  ]
+}

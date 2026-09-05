@@ -1,0 +1,16 @@
+{
+  "vertex": "vertexclient:core/kawase_down/kawase_down",
+  "fragment": "vertexclient:core/sky/clouds_nebula",
+  "samplers": [
+    { "name": "Sampler0" }
+  ],
+  "uniforms": [
+    { "name": "ModelViewMat", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "ProjMat", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "InvViewProjection", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "PrimaryColor", "type": "float", "count": 4, "values": [0.55, 0.73, 1.0, 1.0] },
+    { "name": "SecondaryColor", "type": "float", "count": 4, "values": [0.55, 0.73, 1.0, 1.0] },
+    { "name": "SkyParams", "type": "float", "count": 4, "values": [0.0, 3.0, 4.0, 0.0] },
+    { "name": "SkyTexel", "type": "float", "count": 4, "values": [0.001, 0.001, 0.0, 0.0] }
+  ]
+}

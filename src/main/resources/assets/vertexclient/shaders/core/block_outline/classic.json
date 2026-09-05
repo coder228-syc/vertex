@@ -1,0 +1,10 @@
+{
+  "vertex": "vertexclient:core/block_outline/block_outline",
+  "fragment": "vertexclient:core/block_outline/classic",
+  "uniforms": [
+    { "name": "ModelViewMat", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "ProjMat", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "Tint", "type": "float", "count": 4, "values": [1.0, 1.0, 1.0, 0.82] },
+    { "name": "Params", "type": "float", "count": 4, "values": [1920.0, 1080.0, 0.0, 1.5] }
+  ]
+}

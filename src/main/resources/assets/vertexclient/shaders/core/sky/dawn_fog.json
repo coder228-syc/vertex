@@ -1,0 +1,30 @@
+{
+  "vertex": "vertexclient:core/kawase_down/kawase_down",
+  "fragment": "vertexclient:core/sky/dawn_fog",
+  "samplers": [
+    { "name": "Sampler0" },
+    { "name": "Sampler1" }
+  ],
+  "uniforms": [
+    { "name": "ModelViewMat", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "ProjMat", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "u_InverseProjectionMatrix", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "u_InverseViewMatrix", "type": "matrix4x4", "count": 16, "values": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0] },
+    { "name": "u_CameraPosRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 0.0] },
+    { "name": "u_TimeRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 0.0] },
+    { "name": "u_ResolutionRaw", "type": "float", "count": 4, "values": [1280.0, 720.0, 0.35, 0.0] },
+    { "name": "u_SunDirectionRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 58.0] },
+    { "name": "u_FogMaxRaw", "type": "float", "count": 4, "values": [76.0, 640.0, 0.0, 0.0] },
+    { "name": "u_PaletteZenithRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 1.0] },
+    { "name": "u_PaletteHorizonWarmRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 1.0] },
+    { "name": "u_PaletteHorizonCoolRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 1.0] },
+    { "name": "u_PaletteFogWarmRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 1.0] },
+    { "name": "u_PaletteFogCoolRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 1.0] },
+    { "name": "u_PaletteRayRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 1.0] },
+    { "name": "u_SunScreenRaw", "type": "float", "count": 4, "values": [0.5, 0.5, 0.0, 0.0] },
+    { "name": "u_RainbowDirRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 42.0] },
+    { "name": "u_GodRaysRaw", "type": "float", "count": 4, "values": [0.75, 0.6, 0.0, 0.0] },
+    { "name": "u_StyleRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 0.85] },
+    { "name": "u_DebugRaw", "type": "float", "count": 4, "values": [0.0, 0.0, 0.0, 0.0] }
+  ]
+}

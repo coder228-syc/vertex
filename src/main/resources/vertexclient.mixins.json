@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.vertex.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BackgroundRendererMixin",
+    "BossBarHudMixin",
+    "ChatScreenMixin",
+    "GameRendererMixin",
+    "MouseMixin",
+    "TitleScreenMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
